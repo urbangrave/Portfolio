@@ -39,13 +39,14 @@ export default function Projects() {
             </Container>
           )}
           <Container className="text-center mt-4">
+            <Container>
               <Carousel data-bs-theme="dark">
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
+                    style={{ objectFit: 'cover', height: '100%' }}
                     src={Bms}
                     alt="First slide"
-                    style={{ height: '450px' }}
                   />
                   <Carousel.Caption>
                     {/* <h5>Provincial Budget Monitoring System</h5>
@@ -55,9 +56,9 @@ export default function Projects() {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
+                    style={{ objectFit: 'cover', height: '100%' }}
                     src={Psds}
                     alt="Second slide"
-                    style={{ height: '450px' }}
                   />
                   <Carousel.Caption>
                     {/* <h5>Second slide label</h5>
@@ -67,9 +68,9 @@ export default function Projects() {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
+                    style={{ objectFit: 'cover', height: '100%' }}
                     src={Dts}
                     alt="Third slide"
-                    style={{ height: '450px' }}
                   />
                   <Carousel.Caption>
                     {/* <h5>Third slide label</h5>
@@ -79,17 +80,19 @@ export default function Projects() {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
+                    style={{ objectFit: 'cover', height: '100%' }}
                     src={Bookkeeping}
-                    alt="Third slide"
-                    style={{ height: '450px' }}
+                    alt="Fourth slide"
                   />
                   <Carousel.Caption>
-                    {/* <h5>Third slide label</h5>
+                    {/* <h5>Fourth slide label</h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
                   </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
             </Container>
+
+          </Container>
         </Container>
       </section>
     </Element>
