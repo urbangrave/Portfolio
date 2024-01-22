@@ -1,0 +1,1 @@
+{"version":3,"sources":["customStyle.css"],"names":[],"mappings":"AACA,mBACI,aACJ","file":"main.bda03402.chunk.css","sourcesContent":["/* styles.css or in your JSX using style tags */\r\n.custom-date-color {\r\n    color: rgb(0, 191, 255)/* Change this to the color you want */\r\n}"]}
