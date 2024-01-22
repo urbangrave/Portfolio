@@ -1,3 +1,4 @@
+import React from "react";
 import { useSelector } from "react-redux";
 import { selectData } from "../pages/homeSlice";
 import { Link } from "react-scroll";

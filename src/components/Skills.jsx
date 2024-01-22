@@ -1,3 +1,4 @@
+import React from 'react';
 import { useAppContext } from "../appContext";
 import { Element } from "react-scroll";
 // Data
@@ -36,7 +37,7 @@ export default function Skills() {
                 variant={theme === "light" ? "outline-dark" : "outline-light"}
                 className="mt-5"
               >
-                R&eacute;sum&eacute;
+                Résumé
               </Button>
             </a>
           )}

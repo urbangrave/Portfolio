@@ -1,3 +1,4 @@
+import React from "react";
 // Skills icons - https://icon-sets.iconify.design/
 import { Icon } from "@iconify/react";
 
